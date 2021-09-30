@@ -1,0 +1,28 @@
+plugins {
+	id 'java'
+}
+
+group 'fr.tinky'
+version '1.0-SNAPSHOT'
+
+repositories {
+	mavenCentral()
+}
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'fr.tinkyyy.javacli.JavaCLI'
+	}
+	from {
+		configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+	}
+}
+
+dependencies {
+	testCompile group: 'junit', name: 'junit', version: '4.12'
+	compile "org.jline:jline:3.14.1"
+
+	//LOGGER
+	compile 'org.slf4j:slf4j-api:1.8.0-beta2'
+	compile 'org.apache.logging.log4j:log4j-slf4j-impl:2.11.0'
+}

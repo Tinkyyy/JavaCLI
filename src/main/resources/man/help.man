@@ -1,0 +1,19 @@
+HELP(1)                                             Robot Commands                                             LKCTRL(1)
+
+NAME
+        help - Control the robot
+
+COMMANDS
+        help
+
+DESCRIPTION
+        Display all availables commands
+
+EXAMPLES
+        help
+
+AUTHOR
+        Written by Sabri Belguerma
+
+COPYRIGHT
+        Copyright Sabri Belguerma
