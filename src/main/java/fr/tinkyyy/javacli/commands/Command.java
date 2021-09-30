@@ -1,4 +1,4 @@
-package fr.leka.cli.commands;
+package fr.tinkyyy.javacli.commands;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-HELP(1)                                             Robot Commands                                             LKCTRL(1)
+HELP(1)                                              Help Command                                                HELP(1)
 
 NAME
         help - Control the robot

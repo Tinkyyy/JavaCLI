@@ -1,7 +1,7 @@
-package fr.leka.cli.commands.parentcommands;
+package fr.tinkyyy.javacli.commands.parentcommands;
 
-import fr.leka.cli.commands.Command;
-import fr.leka.cli.commands.CommandManager;
+import fr.tinkyyy.javacli.commands.Command;
+import fr.tinkyyy.javacli.commands.CommandManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,6 +1,6 @@
-package fr.leka.cli.utils;
+package fr.tinkyyy.javacli.utils;
 
-import fr.leka.cli.commands.argument.ArgumentInteger;
+import fr.tinkyyy.javacli.commands.argument.ArgumentInteger;
 import org.slf4j.Logger;
 
 import java.awt.*;

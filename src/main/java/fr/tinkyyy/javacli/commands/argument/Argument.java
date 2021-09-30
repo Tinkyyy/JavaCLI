@@ -1,4 +1,4 @@
-package fr.leka.cli.commands.argument;
+package fr.tinkyyy.javacli.commands.argument;
 
 /**
  * The type Argument.

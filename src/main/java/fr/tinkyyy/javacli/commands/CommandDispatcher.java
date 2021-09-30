@@ -1,4 +1,4 @@
-package fr.leka.cli.commands;
+package fr.tinkyyy.javacli.commands;
 
 import org.jline.reader.LineReader;
 import org.slf4j.Logger;

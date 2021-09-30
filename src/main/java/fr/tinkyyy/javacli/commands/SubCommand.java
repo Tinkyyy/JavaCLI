@@ -1,4 +1,4 @@
-package fr.leka.cli.commands;
+package fr.tinkyyy.javacli.commands;
 
 /**
  * The interface Sub command.

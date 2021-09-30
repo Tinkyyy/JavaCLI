@@ -1,10 +1,9 @@
-package fr.leka.cli;
+package fr.tinkyyy.javacli;
 
-import fr.leka.cli.commands.parentcommands.HelpCommand;
-import fr.leka.cli.commands.parentcommands.LKCtrlCommand;
-import fr.leka.cli.commands.parentcommands.ManCommand;
-import fr.leka.cli.commands.CommandDispatcher;
-import fr.leka.cli.commands.CommandManager;
+import fr.tinkyyy.javacli.commands.parentcommands.HelpCommand;
+import fr.tinkyyy.javacli.commands.parentcommands.ManCommand;
+import fr.tinkyyy.javacli.commands.CommandDispatcher;
+import fr.tinkyyy.javacli.commands.CommandManager;
 import org.jline.reader.LineReader;
 import org.jline.reader.LineReaderBuilder;
 import org.jline.reader.impl.DefaultParser;
@@ -23,8 +22,8 @@ public class JavaCLI {
     private CommandManager commandManager;
 
     public static void main(String[] args) {
-        JavaCLI lekacli = new JavaCLI();
-        lekacli.init();
+        JavaCLI javaCLI = new JavaCLI();
+		javaCLI.init();
     }
 
     private void init() {
@@ -43,9 +42,6 @@ public class JavaCLI {
      */
 
     private void registerCommands() {
-        commandManager.register(new LKCtrlCommand("lkctrl", "Interacting with Leka.",
-                "\"lkctrl %subCommands%\"", "lekactrl", "lkcontrol", "lekacontrol"));
-
         commandManager.register(new HelpCommand(commandManager, "help", "Display available commands.",
                 "\"help\"", "helps", "info", "infos"));
 
